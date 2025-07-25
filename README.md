@@ -5,7 +5,6 @@
 ![Forks](https://img.shields.io/github/forks/your-username/repo-name?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/your-username/repo-name?style=for-the-badge)
 
-> A brief, compelling one-sentence description of what your project does.
 
 <div align="center">
   <img src="https://via.placeholder.com/700x350.png?text=Your+Project+Screenshot" alt="Project Screenshot" width="700">
