@@ -1,11 +1,5 @@
 # 🚀 [Project Title]
 
-<div align="center">
-  <img src="https://via.placeholder.com/700x350.png?text=Your+Project+Screenshot" alt="Project Screenshot" width="700">
-</div>
-
----
-
 ## ✨ About The Project
 
 Here's a more detailed explanation of your project. Why did you build it? What problem does it solve? What makes it stand out? Talk about the core features and the motivation behind the project.
