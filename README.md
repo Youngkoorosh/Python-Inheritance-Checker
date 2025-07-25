@@ -1,4 +1,4 @@
-# 🚀 [Python-Inheritance-Checker]
+# 🚀 Python-Inheritance-Checker
 
 ## ✨ About The Project
 
