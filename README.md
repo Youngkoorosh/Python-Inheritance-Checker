@@ -29,8 +29,3 @@ The script will then process the input and print `possible` or `impossible`.
 
 The script only processes lines containing the word `class`. You can use a simplified syntax.
 
-### Example 1: Possible Inheritance
-
-A valid, non-circular inheritance structure.
-
-**Input:**
