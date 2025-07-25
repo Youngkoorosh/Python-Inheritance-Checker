@@ -1,42 +1,36 @@
-# Persian Number to Text Converter 🇮🇷
+# Python Inheritance Checker 🔗
 
-A simple Python script that converts numerical digits (1-999) into their Persian (Farsi) word equivalents. This project uses a dictionary-based approach for a straightforward conversion.
+A simple Python script to detect circular dependencies in class inheritance definitions. It determines if a given class structure is "possible" or "impossible" by analyzing its inheritance graph.
 
----
-
-## ✨ Features
-
--   **Converts numbers from 1 to 999.**
--   Handles single-digit, double-digit, and triple-digit numbers.
--   Simple, easy-to-understand Python code.
--   Interactive command-line interface.
+In object-oriented programming, a class cannot inherit from itself, either directly or indirectly (e.g., Class A inherits from B, and Class B inherits from A). This creates an impossible circular dependency. This script parses simplified class definitions and reports if such a loop exists.
 
 ---
 
 ## 🚀 How to Use
 
-1.  **Save the Code:** Save the code into a Python file (e.g., `converter.py`).
-2.  **Run from Terminal:** Open your terminal or command prompt and run the script using Python.
+1.  **Save the Code:** Save the script as a Python file (e.g., `checker.py`).
+
+2.  **Run the Script:** Execute the file from your terminal.
     ```bash
-    python converter.py
+    python checker.py
     ```
-3.  **Enter Input:**
-    -   The script will first ask you for the number of conversions you want to perform.
-    -   Enter a number (e.g., `3`).
-    -   Then, for each conversion, enter a number between 1 and 999 and press Enter.
-    -   The script will immediately print the Persian text.
+
+3.  **Provide Input:** Paste your class definitions directly into the terminal. The script reads lines until it receives an end-of-file (EOF) signal.
+
+4.  **End Input:**
+    -   On **Linux** or **macOS**, press `Ctrl + D`.
+    -   On **Windows**, press `Ctrl + Z`, then `Enter`.
+
+The script will then process the input and print `possible` or `impossible`.
 
 ---
 
-## 📋 Example
+## 📋 Input Format & Examples
 
-Here is a sample of what a session with the script looks like:
+The script only processes lines containing the word `class`. You can use a simplified syntax.
 
-```text
-3  <-- User enters '3' for three conversions
-7
-haft
-42
-chehel o do
-589
-paansad o hashtaad o noh
+### Example 1: Possible Inheritance
+
+A valid, non-circular inheritance structure.
+
+**Input:**
